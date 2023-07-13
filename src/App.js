@@ -1,8 +1,9 @@
 import "./App.css";
 import React from "react";
+import CounterThree from "./components/reducerhooks/CounterThree";
 //import ComponentC from "./components/contexthooks/ComponentC";
 //import CounterOne from "./components/reducerhooks/CounterOne";
-import CounterTwo from "./components/reducerhooks/CounterTwo";
+//import CounterTwo from "./components/reducerhooks/CounterTwo";
 //import DataFetching from "./components/useeffecthooks/DataFetching";
 //import IntervalCounter from "./components/useeffecthooks/IntervalCounter";
 //import HookCounterOne from "./components/useeffecthooks/HookCounterOne";
@@ -37,7 +38,8 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
       {/* <CounterOne /> */}
-      <CounterTwo />
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </div>
   );
 }
